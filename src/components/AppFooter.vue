@@ -91,7 +91,7 @@
 .container {
     max-width: 1200px;
     margin: auto;
-    padding: 50px 0px;
+    padding: 39px 0px;
 }
 .d-flex {
     display: flex;
