@@ -97,9 +97,10 @@
     display: flex;
 }
 .I-section {
-    background-image: url('../assets/footer-bg.jpg');
+    background: url('../assets/dc-logo-bg.png'), url('../assets/footer-bg.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 35%, 100%;
+    background-position: 900px, 0;
 }
 h4 {
     color: #fff;
