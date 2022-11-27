@@ -142,4 +142,7 @@ a {
 .follow-us h4 {
     padding-right: 20px;
 }
+nav ul li a:hover {
+    color: #fff;
+}
 </style>

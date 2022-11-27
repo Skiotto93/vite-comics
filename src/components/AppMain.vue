@@ -1,13 +1,20 @@
-<script setup>
+<script>
+import AppHero from './AppHero.vue';
+
+export default {
+    name: 'AppMain',
+    components: {
+        AppHero,
+    }
+}
 
 </script>
 
 <template>
     <!--I Sezione-->
     <section class="I-section">
-        <div class="container">
-            <h3><a href="#">Content Goes Here</a></h3>
-        </div>
+        <AppHero/>
+    
     </section>
     <!--II Sezione-->
     <section class="II-section">
